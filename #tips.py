@@ -51,14 +51,14 @@ odd_square = [i**2 for i in range(11) if i%2 ==1]
 print(odd_square)
 '''
 
-#pass any number of argument to a function use *
-
+#pass any number of parameter to a function use *
+#Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function
 def add(*a):
     result = 0
     for i in a:
         result = result + i
     return result
 
-val = add(1,2,3) #you can pass any number of argument
+val = add(1,2,3) #you can pass any number of parameter
 print(val)
  
